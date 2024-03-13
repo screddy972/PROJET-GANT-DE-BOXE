@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  margin: 32px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+.list {
+  display: flex;
+  gap: 16px;
+  margin-right: 24px;
+}
+.list li {
+  color: black;
+
+  list-style: none;
+}
+
+.list a {
+  text-decoration: none;
+  color: black;
+}
+
+.dimension {
+  margin-bottom: 32px;
+
+  margin-right: 500px;
+}
+
+.couleur {
+  color: gold;
+}
+main {
+  background-color: black;
+}
+
+.margin {
+  width: auto;
+  margin-left: 200px;
+}
+.couleur-gant {
+  background-color: gainsboro;
+  margin-left: 200px;
+  margin-right: 220px;
+}
+
+.gant-flex {
+  display: flex;
+
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.description-gant {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.couleur-btn {
+  color: white;
+  background-color: black;
+}
+.text-barre {
+  text-decoration: line-through;
+}
+
+.price-flex {
+  display: flex;
+  gap: 50px;
+}
+
+.pric {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 150px;
+  margin-left: 110px;
+}
+
+.liste {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.listo {
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding-top: 20px;
+}
+
+.liste li {
+  list-style: none;
+}
+section {
+  background-color: lightgray;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 200px;
+  padding-top: 20px;
+  gap: 200px;
+}
+.text-flex {
+  display: flex;
+  gap: 32px;
+}
+.trait-horizontal {
+  border-top: 3px solid gray;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 32px;
+}
+
+.icone {
+  display: flex;
+  justify-content: space-around;
+ 
+}
